@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aqua;
+    font-family: "Source Code Pro", monospace; 
+    color:#3956d7
+}
+.navbar {
+    background-color: #002fff;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    font-family: "Source Code Pro", monospace;
+    display:inline-block;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+   
+}
+.navbar a:hover{
+    background-color:#3956d7;
+}
+
+
+.bicchiere{
+    display: flex; /* Attiva il layout Flexbox */
+    flex-direction: row; /* Imposta l'orientamento delle colonne */
+    align-items: center; /* Allinea gli elementi verticalmente al centro */
+    text-align: center;
+
+}
+.bicchiere img{
+    max-width: 100%;
+
+}
+.bicchiere button {
+    margin-top: 10px; /* Aggiunge spazio sopra il pulsante */
+  }
+img{
+    width: 90px;
+    float: left;
+    
+}
+img:hover{
+    scale: 1.1;
+}
+.title-big{
+    font-family: "Source Code Pro", monospace; 
+    font-size: 48px;
+    font-weight: bold;
+ 
+    color:#002fff
+
+}
+#reminder{
+    width: 200px;
+    float:left;
+
+
+}
+button{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+
+}
+button:hover{
+    scale: 1.1;
+}
+.sezione2{
+    bottom:100px
+}
+
+.navbar2{
+    float:right;
+    
+}
+.navbar2 img{
+    width: 20px;
+    
+    
+}
+
+  
